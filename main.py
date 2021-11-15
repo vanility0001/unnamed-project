@@ -93,4 +93,6 @@ async def evaluate(ctx: commands.Context, *, code: str) -> None:
     await evaluator.del_temp_file(data[1])
 
 
+print('test')
+
 client.run("token")
