@@ -92,7 +92,4 @@ async def evaluate(ctx: commands.Context, *, code: str) -> None:
     await message.edit(content=None, embed=embed)
     await evaluator.del_temp_file(data[1])
 
-
-print('test')
-
 client.run("token")
