@@ -20,7 +20,6 @@ class Evaluator:
 
         with open(filename, "w", encoding="utf-8") as f:
             f.write(code)
-            f.close()
 
         return "File created!", filename
 
